@@ -187,7 +187,7 @@ void    foundDouble(std::string &input)
 
 void    foundFloat(std::string &input)
 {
-    double floatValue = std::strtod(input.c_str(), NULL);
+    float floatValue = std::strtof(input.c_str(), NULL);
 
     std::cout << "char: ";
     if (std::isnan(floatValue) || std::isinf(floatValue))

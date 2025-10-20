@@ -2,6 +2,7 @@
 #include <string>
 #include <iomanip>
 #include <cmath>
+#include <climits>
 
 enum inputType
 {
